@@ -1,7 +1,7 @@
 import axios from "@/node_modules/axios/index";
 
 const API_KEY = 'c754b08fe02f3ee3b42b9f1cdbcdd79f'
-const API_BASE_URL = "https://api.themoviedb.org/3/movie/550?api_key"
+const API_BASE_URL = "https://api.themoviedb.org/3"
 
 const client = axios.create({
     baseURL: API_BASE_URL,

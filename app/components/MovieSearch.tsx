@@ -11,7 +11,7 @@ const MovieSearch = () => {
     const [movies, setMovie] = useState([])
 
     const handleSearch = async (query: string) => {
-        const results = await searchMovie('batman')
+        const results = await searchMovie(query)
         setMovie(results)
     }
 
